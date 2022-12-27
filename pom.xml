@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Saritha</name>
-	      <url>http://35.180.39.129:8081/repository/icicibank-release/</url>
+	      <url>http://35.180.186.138:8081/repository/icicibank-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Saritha </name>
-	      <url>http://35.180.39.129:8081/repository/icicibank-snapshots/</url>
+	      <url>http://35.180.186.138:8081/repository/icicibank-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
