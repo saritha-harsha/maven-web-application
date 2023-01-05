@@ -15,5 +15,10 @@ git branch: 'development', credentialsId: '22915043-138f-46e5-95e9-fc83c0c6ed16'
       sh "mvn clean package"
     }
   }
+  stage('nexus'){
+    steps{
+      sh "mvn clean sonar:sonar"
+    }
+  }
 }// for stages
 } // for pipeline
